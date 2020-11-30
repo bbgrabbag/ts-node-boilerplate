@@ -4,6 +4,11 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "dev",
+            "type": "shell",
+            "command": "npm run dev",
+        },
+        {
             "label": "dev:watch",
             "type": "shell",
             "command": "npm run dev:watch",
@@ -12,6 +17,16 @@
             "label": "test",
             "type": "shell",
             "command": "npm t",
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "npm run build",
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "npm run clean",
         }
     ]
 }

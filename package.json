@@ -10,7 +10,8 @@
     "ts-jest": "ts-jest",
     "dev": "ts-node --project tsconfig.dev.json ./src/index.ts",
     "dev:watch": "nodemon src/index.ts",
-    "build": "tsc ./src/index.ts"
+    "build": "tsc",
+    "clean": "rmdir dist /s /q"
   },
   "keywords": [],
   "author": "",
